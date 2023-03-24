@@ -1,0 +1,68 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.msquare</groupId>
+	<artifactId>SeleniumAutomationFramework</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	
+	<properties>
+		<selenium.java.version>4.8.1</selenium.java.version>
+		<selenium.jdk.client.version>4.8.1</selenium.jdk.client.version>
+		<testng.version>7.7.1</testng.version>
+		<assertj.core.version>3.24.2</assertj.core.version>
+		<assertj.joda.version>2.2.0</assertj.joda.version>
+		<joda.time.version>2.12.2</joda.time.version>
+		<apache.commons.lang3.version>3.12.0</apache.commons.lang3.version>
+	</properties>
+
+	<dependencies>
+		<!--
+		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>${selenium.java.version}</version>
+		</dependency>
+		<!--
+		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-http-jdk-client -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-http-jdk-client</artifactId>
+			<version>${selenium.jdk.client.version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>${testng.version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.assertj/assertj-core -->
+		<dependency>
+			<groupId>org.assertj</groupId>
+			<artifactId>assertj-core</artifactId>
+			<version>${assertj.core.version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.assertj/assertj-joda-time -->
+		<dependency>
+			<groupId>org.assertj</groupId>
+			<artifactId>assertj-joda-time</artifactId>
+			<version>${assertj.joda.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/joda-time/joda-time -->
+		<dependency>
+			<groupId>joda-time</groupId>
+			<artifactId>joda-time</artifactId>
+			<version>${joda.time.version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>${apache.commons.lang3.version}</version>
+		</dependency>
+
+	</dependencies>
+
+</project>
